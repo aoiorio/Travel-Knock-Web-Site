@@ -3,4 +3,4 @@ contact_links:
   - name: Add new ToDo
     about: made by config.yml
     # edit {username} and {repo} for your environment
-    url: https://github.com/aoiorio/Travel-Knock/issues/new?template=custom.md&projects=aoiorio%2FTravel-Knock%2F1&labels=Travel-Knock
+    url: https://github.com/aoiorio/Travel-Knock-Web-Site/issues/new?template=custom.md&projects=aoiorio%2FTravel-Knock-Web-Site%2F1&labels=Travel-Knock-Web-Site
