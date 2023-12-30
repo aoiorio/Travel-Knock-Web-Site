@@ -1,0 +1,55 @@
+{% extends "parent/parent.html" %}
+{% block wholeblock %}
+    <!-- first view -->
+    <img src="../static/img/knock_details/knock-details-first-shape.png" alt="first-shape-knock-details">
+    <div class="flex flex-row absolute top-20 ml-10">
+        <img class="knock-first-iphones" src="../static/img/knock_details/knock-details-first-iphones.png" alt="first-iphones-knock-details">
+            <div class="flex flex-col ml-9 mt-32 items-center">
+                <h1 class="knock-letter">Knock</h1>
+                <h1 class="with-one-tap -mt-10">with one tap</h1>
+            </div>
+        <img class="w-80 ml-32 first-hand" src="../static/img/knock_details/knock-details-first-hand.png" alt="first-hand-knock-details">
+    </div>
+
+    <!-- second view (knock description 1.) -->
+    <div class="flex flex-row mt-56">
+        <div class="flex flex-col mt-32 ml-20 mr-28">
+            <h1 class="knock-description-title">1.</h1>
+            <h1 class="knock-description-title">Choose</h1>
+            <h1 class="knock-description-title w-full mr-10">Destination and</h1>
+            <h1 class="knock-description-title">period</h1>
+            <h1 class="knock-description-explanatory-text mt-20">Now your travel is starting.
+                Everything are worthy of “knock”.
+                </h1>
+        </div>
+        <img class="knock-second-iphones ml-8" src="../static/img/knock_details/knock-details-second-iphones.png" alt="second-iphones-knock-details">
+    </div>
+
+    <!-- third view (knock description 2.)-->
+    <div class="flex flex-row mt-40">
+        <img class="knock-third-iphone" src="../static/img/knock_details/knock-details-third-iphone.png" alt="third-iphone-knock-details">
+        <div class="flex flex-col ml-40">
+            <h1 class="knock-description-title">2.</h1>
+            <h1 class="knock-description-title">Wait until complete</h1>
+            <h1 class="knock-description-explanatory-text mt-20 mr-32">You can see
+                where you knocked and who you knocked to at Profile page.
+            </h1>
+            <h1 class="knock-description-explanatory-text mt-16 mr-32">Wait for the user you requested completed creating a plan to you.
+            </h1>
+        </div>
+    </div>
+
+    <!-- 4th view (vertical profiles) -->
+    <img class="mt-20" src="../static/img/knock_details/knock-details-last-profiles.png" alt="last-profiles-knock-details">
+    <div class="flex flex-row items-center -mt-24 absolute right-20 mb-10">
+
+        <h1 class="let-knock ">Let's Knock</h1>
+        <a class="pl-10" href="https://apps.apple.com/jp/app/travel-knock/id6474373726" target="_blank"><img
+            class="w-40" src="../static/img/home/download-on-the-app-store.png" alt="download-button"></a>
+    </div>
+
+    <!-- copyright -->
+    <div class="flex flex-col justify-center mt-10">
+        <h1 class="copyright items-center mx-auto">©️ Travel Knock 2023</h1>
+    </div>
+{% endblock %}

@@ -6,6 +6,7 @@
 .img-size {
     width: 27%;
     pointer-events: none;
+    z-index: 10;
 }
 
 .strange-shape-size {
@@ -87,4 +88,8 @@
 .copyright {
     font-family: 'MuseoModerno';
     font-size: 1rem;
+}
+
+.knock-icon {
+    z-index: 30;
 }

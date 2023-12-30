@@ -1,27 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="static/home_css/home.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300&&family=Overpass&display=swap');
-    </style>
-    <title>Travel Knock</title>
-</head>
-<!-- 画像のドラッグ禁止！ -->
-
-<body bgcolor="#D9D9D9" onselectstart="return false;" onmousedown="return false;" oncontextmenu="return false;">
-    <!-- Travel Knock logo -->
-    <div class="w-32">
-        <!-- urlの指定はtravel_knock_app:homeではなくて、homeだけでいい。一つしかアプリがないから -->
-        <a class="w-36 fixed top-5 left-5" href="{% url 'home' %}">
-            <img class="" src="../static/img/home/Travel-Knock-Logo-Black.png" alt="">
-        </a>
-    </div>
-
+{% extends "parent/parent.html" %}
+{% block wholeblock %}
     <!-- first view -->
     <img class="img-size ml-14 " src="../static/img/home/home-first-knock-iphone.png" alt="knock-home">
     <img class="img-size absolute bottom-10 right-6 " src="../static/img/home/home-first-plans-iphone.png"
@@ -66,7 +44,7 @@
         <h1 class="introduce-features-explanatory-text">You'll discover a lot of </h1>
         <h1 class="introduce-features-explanatory-text mb-4">requests to you.</h1>
         <!-- TODO add url of Knock Page -->
-        <a href="">
+        <a href="{% url 'knock_details' %}">
             <div class="more-button flex justify-center items-center rounded-2xl ml-52 mb-10">
                 <h1 class="">More</h1>
             </div>
@@ -110,6 +88,4 @@
     <div class="flex flex-col justify-center">
         <h1 class="copyright items-center mx-auto">©️ Travel Knock 2023</h1>
     </div>
-</body>
-
-</html>
+{% endblock %}

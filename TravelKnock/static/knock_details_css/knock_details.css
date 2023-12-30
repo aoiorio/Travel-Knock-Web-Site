@@ -1,0 +1,48 @@
+.a-tag {
+    overflow: hidden;
+    display: none;
+}
+
+.knock-first-iphones {
+    width: 60%;
+    z-index: 10;
+}
+
+.knock-letter {
+    font-family: 'MuseoModerno', sans-serif;
+    font-size: 10rem;
+}
+
+.with-one-tap {
+    font-family: 'Overpass', sans-serif;
+    font-size: 3rem;
+}
+
+.first-hand {
+    position: absolute;
+    top: 26rem;
+    right: 0;
+}
+
+.knock-second-iphones {
+    width: 50%;
+}
+
+.knock-description-title {
+    font-family: 'MuseoModerno', sans-serif;
+    font-size: 4rem;
+}
+
+.knock-description-explanatory-text {
+    font-family: 'Overpass';
+    font-size: 2rem;
+}
+
+.knock-third-iphone {
+    width: 40%;
+}
+
+.let-knock {
+    font-family: 'MuseoModerno', sans-serif;
+    font-size: 4.5rem;
+}
