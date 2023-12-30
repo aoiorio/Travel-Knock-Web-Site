@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/static/home_css/home.css">
+    <link rel="stylesheet" href="/static/knock_details_css/knock_details.css">
+    <style>
+        /* fontを読み込む */
+        @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300&&family=Overpass&display=swap');
+    </style>
+    <title>Travel Knock</title>
+</head>
+
+<!-- 画像のドラッグ禁止！ -->
+<body bgcolor="#D9D9D9" onselectstart="return false;" onmousedown="return false;" oncontextmenu="return false;">
+    <!-- Travel Knock logo -->
+    <div class="w-32 knock-icon">
+        <!-- urlの指定はtravel_knock_app:homeではなくて、homeだけでいい。一つしかアプリがないから -->
+        <a class="w-36 fixed top-5 left-5 knock-icon" href="{% url 'home' %}">
+            <img class="" src="../static/img/home/Travel-Knock-Logo-Black.png" alt="">
+        </a>
+    </div>
+    {% block wholeblock %}
+
+    {% endblock %}
+</body>
+
+</html>
