@@ -7,3 +7,6 @@ class HomeView(TemplateView):
 
 class KnockDetailsView(TemplateView):
     template_name = 'knock_details/knock_details.html'
+
+class CreatePlansDetailsView(TemplateView):
+    template_name = 'create_plans_details/create_plans_details.html'
