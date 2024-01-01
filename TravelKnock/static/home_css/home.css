@@ -1,0 +1,95 @@
+.home-first-infinity {
+    font-family: 'MuseoModerno', sans-serif;
+    font-size: 3rem;
+}
+
+.img-size {
+    width: 27%;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.strange-shape-size {
+    width: 100%;
+}
+
+.create-plan {
+    position: absolute;
+    /* top: 130%; */
+    top: 60rem;
+
+    right: 10rem;
+    width: 25%;
+}
+
+.introduce-features-title {
+    font-family: 'MuseoModerno';
+    font-size: 3rem;
+}
+
+.introduce-features-explanatory-text {
+    font-family: 'Overpass';
+    font-size: 1.5rem;
+}
+
+.knock {
+    position: absolute;
+    top: 62rem;
+    /* top: 138%; */
+    left: 10rem;
+    width: 25%;
+}
+
+.more-button {
+    font-family: 'MuseoModerno';
+    color: #ffffff;
+    font-size: 1.2rem;
+    width: 8rem;
+    height: 3rem;
+    background-color: #32323B;
+}
+
+.third-iphone-size {
+    width: 25%;
+    /* margin-top: 30%; */
+}
+
+.third-search {
+    width: 25%;
+    margin-top: -2px;
+    /* margin-left: -20rem; */
+}
+
+.third-diagonal {
+    width: 28%;
+}
+
+.third-div {
+    margin-left: -38rem;
+}
+
+.somethings {
+    font-family: 'MuseoModerno', sans-serif;
+    font-size: 5rem;
+
+}
+
+.somethings-position {
+    position: absolute;
+    top: 143rem;
+    right: 2rem;
+}
+
+.third-letters {
+    font-family: 'Overpass';
+    font-size: 1.5rem;
+}
+
+.copyright {
+    font-family: 'MuseoModerno';
+    font-size: 1rem;
+}
+
+.knock-icon {
+    z-index: 30;
+}

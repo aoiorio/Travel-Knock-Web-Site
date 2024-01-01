@@ -1,0 +1,91 @@
+{% extends "parent/parent.html" %}
+{% block wholeblock %}
+    <!-- first view -->
+    <img class="img-size ml-14 " src="../static/img/home/home-first-knock-iphone.png" alt="knock-home">
+    <img class="img-size absolute bottom-10 right-6 " src="../static/img/home/home-first-plans-iphone.png"
+        alt="plans-home">
+    <img class="img-size ml-20 mt-10" src="../static/img/home/home-first-okinawa-details-iphone.png"
+        alt="okinawa-details-home">
+    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col">
+        <h1 class="home-first-infinity flex justify-center">Let's go to </h1>
+        <h1 class="home-first-infinity flex justify-center">the infinity journey</h1>
+        <!-- download on the app store and icon -->
+        <div class="mt-5 flex flex-row items-center content-center justify-center">
+            <a class="" href="https://apps.apple.com/jp/app/travel-knock/id6474373726" target="_blank"><img class="w-14"
+                    src="../static/img/home/download-icon.png" alt="travel-knock-icon"></a>
+            <a class="pl-10" href="https://apps.apple.com/jp/app/travel-knock/id6474373726" target="_blank"><img
+                    class="w-40" src="../static/img/home/download-on-the-app-store.png" alt=""></a>
+        </div>
+    </div>
+
+    <!-- second view -->
+    <img class="strange-shape-size" src="../static/img/home/home-second-shape-down.png" alt="strange-shape">
+    <!-- create plan description and an image -->
+    <div class="flex flex-col create-plan">
+        <img class="" src="../static/img/home/home-second-create-plan.png" alt="create-plan-home">
+        <h1 class="introduce-features-title mt-10">Create plans</h1>
+        <h1 class="introduce-features-explanatory-text mt-4">Where did you go?</h1>
+        <h1 class="introduce-features-explanatory-text">What did you do there?</h1>
+        <h1 class="introduce-features-explanatory-text mb-8">
+            You can post other users whole your experiences of travel.</h1>
+        <!-- TODO add url of Create Plan Page -->
+        <a href="{% url 'create_plans_details' %}">
+            <div class="more-button flex justify-center items-center rounded-2xl ml-52 mb-10">
+                <h1 class="">More</h1>
+            </div>
+        </a>
+    </div>
+
+    <!-- knock feature description and an image -->
+    <div class="flex flex-col knock">
+        <h1 class="introduce-features-title mt-10">Knock</h1>
+        <h1 class="introduce-features-explanatory-text mt-4">Request a plan to other users.</h1>
+        <h1 class="introduce-features-explanatory-text">And find your new journey.</h1>
+        <h1 class="introduce-features-explanatory-text">You'll discover a lot of </h1>
+        <h1 class="introduce-features-explanatory-text mb-4">requests to you.</h1>
+        <!-- DONE add url of Knock Page -->
+        <a href="{% url 'knock_details' %}">
+            <div class="more-button flex justify-center items-center rounded-2xl ml-52 mb-10">
+                <h1 class="">More</h1>
+            </div>
+        </a>
+        <img class="" src="../static/img/home/home-second-knock.png" alt="knock-home">
+    </div>
+    <img class="strange-shape-size mt-40" src="../static/img/home/home-second-shape-up.png" alt="strange-shape">
+
+    <!-- third view -->
+    <div class="flex flex-row ml-20">
+        <div class="flex flex-col">
+            <div class="h-20"></div>
+            <img class="third-iphone-size " src="../static/img/home/home-third-elephant.png" alt="elephant-home">
+            <img class="third-diagonal mt-20 ml-10" src="../static/img/home/home-third-plans.png"
+                alt="third-plans-home">
+        </div>
+        <div class="flex flex-col third-div">
+            <img class="third-search" src="../static/img/home/home-third-search-iphone.png" alt="search-home">
+            <img class="third-diagonal mt-20 ml-10" src="../static/img/home/home-third-profile.png" alt="">
+        </div>
+    </div>
+
+    <!-- third view something travel and so on-->
+    <div class="flex flex-col somethings-position">
+        <h1 class="somethings">Something New.</h1>
+        <h1 class="somethings">Something Travel.</h1>
+        <h1 class="third-letters mt-20">Not anything else makes you feel the way Travel Knock does.</h1>
+        <h1 class="third-letters mt-16">You have been imagining your traveling plans.</h1>
+        <h1 class="third-letters mt-16">What are you waiting for?</h1>
+        <h1 class="third-letters mt-16">Let's give it a shot.</h1>
+
+        <div class="flex flex-row items-center mt-12 justify-end mr-6">
+            <img class="w-36" src="../static/img/home/travel-knock-qr-code.png" alt="">
+            <a class="pl-10 " href="https://apps.apple.com/jp/app/travel-knock/id6474373726" target="_blank"><img
+                    class="w-40" src="../static/img/home/download-on-the-app-store.png" alt="download-button"></a>
+        </div>
+        <img class="w-72 ml-96 mt-10" src="../static/img/home/none.PNG" alt="">
+    </div>
+
+    <!-- copyright -->
+    <div class="flex flex-col justify-center">
+        <h1 class="copyright items-center mx-auto">©️ Travel Knock 2023</h1>
+    </div>
+{% endblock %}
