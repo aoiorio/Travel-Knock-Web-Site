@@ -4,7 +4,7 @@
 
 It's my Web Design's homework.
 I made a web site of Travel Knock.
-Travel Knock is on App Store now.
+Travel Knock is on the App Store now.
 <br>
 <br>
 
