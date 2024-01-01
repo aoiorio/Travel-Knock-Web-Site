@@ -1,6 +1,4 @@
 tools
-TravelKnock/travel_knock_app/__pycache__
-TravelKnock/TravelKnock/__pycache__
 .DS_Store
 __pycache__
 .env
