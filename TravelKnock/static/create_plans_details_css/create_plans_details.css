@@ -1,0 +1,25 @@
+.first-iphones {
+    width: 35%;
+}
+
+.first-title {
+    font-family: 'MuseoModerno', sans-serif;
+    font-size: 7rem;
+}
+
+.second-right-iphone {
+    width: 26%;
+    margin-top: -32rem;
+}
+
+.second-left-iphone {
+    width: 40%;
+}
+
+.second-no-posts {
+    width: 30%;
+}
+
+.third-iphones {
+    width: 50%;
+}
