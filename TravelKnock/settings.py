@@ -138,4 +138,4 @@ SUPERUSER_PASSWORD = os.getenv("SUPERUSER_PASSWORD")
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'travel_knock.onrender.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'travel-knock.onrender.com']
