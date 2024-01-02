@@ -8,4 +8,4 @@ Travel Knock is on the App Store now.
 <br>
 <br>
 
-[<img src="TravelKnock/static/img/home/download-on-the-app-store.png" width=150>](https://apps.apple.com/jp/app/travel-knock/id6474373726)
+[<img src="static/img/home/download-on-the-app-store.png" width=150>](https://apps.apple.com/jp/app/travel-knock/id6474373726)
